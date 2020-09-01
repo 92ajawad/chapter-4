@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html>
-	<!--Joshua Hipple
-		CIS 216 - W1
 		
 		Chapter 4 Assignment
 		JavaJam
@@ -37,7 +35,7 @@
 		</main>
 		<footer>
 			Copyright &copy 2014 JavaJam Coffee House<br>
-			<a href="mailto:joshua@hipple.com">joshua@hipple.com</a>				
+							
 		</footer>
 		</div>
 	</body>
