@@ -1,33 +1,80 @@
 <!DOCTYPE html>
-<html>
-		Chapter 4 Assignment
-		JavaJam
-		
-		music.html
-	-->
-	<head>
-		<title>JavaJam Coffee House Music</title>
-		<link rel="stylesheet" href="javajam.css">
-	</head>
-	<body>
-		<div id="wrapper">
-		<header>
-			<h1><img src="javalogo.gif" height="117" width="619" alt="JavaJam Coffee House"></h1>
-		</header>
-		<nav>
-			<a href="index.html">Home</a>&nbsp <a href="menu.html">Menu</a>&nbsp <a href="music.html">Music</a>&nbsp <a href="jobs.html">Jobs</a>
-		</nav>
-		<main>
-			<p>The first Friday night each month at JavaJam is a special night!  Join us from 8pm to 11pm for some music you won&rsquo;t want to miss!</p>
-			<h2>January</h2>
-			<p class="details"><a href="melanie.jpg"><img src="melaniethumb.jpg" height="80" width="80" alt="Melanie Morris"></a>Melanie Morris entertains with her melodic folk style.  Check out the podcast!  CDs are now available.</p>
-			<h2>February</h2>
-			<p class="details"><a href="greg.jpg"><img src="gregthumb.jpg" width="80" height="80" alt="Tahoe Greg"></a>Tahoe Greg&rsquo;s back from his tour.  New songs.  New stories.  CDs are now available.</p>
-		</main>
-		<footer>
-			Copyright &copy 2014 JavaJam Coffee House<br>
-			<a href=</a>			
-		</footer>
-		</div>
-	</body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaJam Home</title>
+    <link rel="stylesheet" type="text/css" href="css\javacoffee.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+     
+</head>
+
+<body id="wrapper">
+    <section class="row">
+        <div id="navContainer" class="col-xs-12 col-md-3 col-lg-2">
+            <img src="images/javajamlogo.jpg" width="100%" alt="">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="music.php">Music</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="gear.php">Gear</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-xs-12 col-md-9 col-lg-10">
+            <section>
+                <header>
+                    <h1>JavaJam Coffee House</h1>
+                </header>
+            </section>
+            <section>
+                <img src="images/heromugs.jpg" width="100%" alt="">
+            </section>
+            <main>
+                <article>
+                    <section>
+                        <h2 id="menuH2">Music at JavaJam</h2>
+                    </section>
+                    <section class="musicData">
+                        <p> The first Friday night each month at JavaJam is a special night. Join us from 8 pm to 11 pm for some music you won't
+                            want to miss!</p>
+                    </section>
+                    <section>
+                        <p class="division">JANUARY</p>
+                            <table class="musicTableClass"> 
+                                <tbody>
+                                    <tr>
+                                        <td><img src="images/melaniethumb.jpg"></td>
+                                        <td>Melanie Morris entertains with her melodic folk style.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                    <section>
+                        <p class="division">FEBRUARY</p>
+                        <table class="musicTableClass">
+                            <tbody>
+                                <tr>
+                                    <td><img src="images/gregthumb.jpg"></td>
+                                    <td>Tahoe Greg is back from his tour. New songs. New stories.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </section>
+            </article>
+        </main>
+    </section>
+    <section class="row">
+        <footer class="col-sm-12">
+            <div>Copyright &copy 2018 JavaJam Coffee House</div>
+            <a href=/a>
+        </footer>
+    </section>
+</body>
 </html>
