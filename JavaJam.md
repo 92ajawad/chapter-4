@@ -1,4 +1,11 @@
-
+<!DOCTYPE html>
+<html>
+	<!--Joshua Hipple
+		CIS 216 - W1
+		
+		Chapter 4 Assignment
+		JavaJam
+		
 		index.html
 	-->
 	<head>
@@ -29,8 +36,8 @@
 			</div>
 		</main>
 		<footer>
-			Copyright &copy 2020 JavaJam Coffee House<br>
-			<a href="			
+			Copyright &copy 2014 JavaJam Coffee House<br>
+			<a href="mailto:joshua@hipple.com">joshua@hipple.com</a>				
 		</footer>
 		</div>
 	</body>
