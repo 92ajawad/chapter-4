@@ -72,7 +72,7 @@
     </section>
     <section class="row">
         <footer class="col-sm-12">
-            <div>Copyright &copy 2018 JavaJam Coffee House</div>
+            <div>Copyright &copy 2020 JavaJam Coffee House</div>
             <a href=/a>
         </footer>
     </section>
