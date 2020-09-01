@@ -34,7 +34,7 @@
 			</div>
 		</main>
 		<footer>
-			Copyright &copy 2014 JavaJam Coffee House<br>
+			Copyright &copy 2020 JavaJam Coffee House<br>
 							
 		</footer>
 		</div>
